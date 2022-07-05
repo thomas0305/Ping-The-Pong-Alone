@@ -45,8 +45,7 @@ int main()
             rightVelocity(velocity, winWidth, plrWidth);
         }
 
-        std::cout << "x velocity is: " << velocity << "\n";
-        std::cout << "Velocity: " << velocity << "\n";
+        std::cout << "Velocity is: " << velocity << "\n";
 
         // Updates the positional changes throughout each loop. Only velocity parameter changes, plrStartPosY is only there to fill out the criteria of having two parameters.
         player.setPosition(sf::Vector2f(velocity, plrStartPosY));
